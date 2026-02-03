@@ -1,0 +1,117 @@
+ #full_section{
+    background-image: url("images/background\ image.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image1, .image2,.image3,.image4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*{
+    margin: 0;
+    
+}
+.heading_2:hover{
+    /* background-color: black; */
+    padding: 230px 0px 230px;
+    background-image: url("images/design-theory-title-1024x576.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.heading_3:hover{
+    /* background-color: black; */
+    padding: 230px 0px 230px;
+    background-image: url("images/design-theory-class-summary-5-728.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.heading_4:hover{
+    /* background-color: black; */
+    padding: 230px 0px 230px;
+    background-image: url("images/Principles-of-Design-Infograph-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.heading_5:hover{
+    /* background-color: black; */
+    padding: 230px 0px 230px;
+    background-image: url("images/alignment image.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.heading_1,.heading_2,.heading_3,.heading_4,.heading_5{
+    text-align: center;
+    color: blue;
+    margin: 25px 25px 25px;
+} 
+
+p{
+    color:black;
+    font-size:23.5px; 
+    margin: 25px 25px 25px;
+}
+
+.link_1,.link_2,.link_3{
+    margin: 85px 85px 85px;
+    padding: 30px 50px 40px;
+    background-color: brown;
+} 
+.internal_link{
+    margin: 40px 40px 40px;
+    padding: 15px 25px 20px;
+    background-color: brown;
+}
+#last_page{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  *
+#full_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#full_section .top_page{ 
+    flex-basis: 25%;
+}
+#full_section .midddle_page{ 
+    flex-basis: 25%;
+}
+#full_section .buttom_pagee{
+    flex-basis: 70%;
+}
+ 
+ #full_section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;  
+}
+
+@media screen and { max-width: 600px;
+    
